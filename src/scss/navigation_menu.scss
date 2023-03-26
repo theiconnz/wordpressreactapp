@@ -1,0 +1,40 @@
+@import "~bootstrap/scss/_functions";
+@import "custom_variables";
+@import "~bootstrap/scss/_maps";
+@import "~bootstrap/scss/_mixins";
+@import "~bootstrap/scss/_utilities";
+
+
+.list-group-horizontal{
+  .nav-item{
+    :hover{
+      border-bottom: 2px solid $white;
+    }
+  }
+  a.nav-link{
+    border-bottom: 2px solid transparent;
+    margin: 0 1rem;
+    font-size: .8rem;
+    color: $white !important;
+    text-transform: uppercase;
+
+    :hover{
+      color: $gray-600 !important;
+    }
+
+    :visited{
+      color: $gray-600 !important;
+    }
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .list-group-horizontal{
+    a.nav-link{
+      font-size: .9rem;
+      text-transform: uppercase;
+      margin: 0 1rem;
+      color: $white;
+    }
+  }
+}

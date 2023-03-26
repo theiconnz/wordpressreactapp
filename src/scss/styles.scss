@@ -1,0 +1,205 @@
+$primary-color: #000000;
+$secondary-color: #ffffff;
+$magento-color: #F5452A;
+
+$body-bg: #000000;
+
+@font-face {
+  font-family: 'tw_cen_mt_regular';
+  src: url('../../public/fonts/Tw_Cen_MT_Regular.eot');
+  src: url('../../public/fonts/Tw_Cen_MT_Regular.woff') format('woff'),
+      url('../../public/fonts/Tw_Cen_MT_Regular.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;700&display=swap');
+
+
+//@import "~bootstrap/scss/_functions";
+//@import "custom_variables";
+//@import "~bootstrap/scss/_mixins";
+//@import "~bootstrap/scss/_buttons";
+//@import "~bootstrap/scss/_maps";
+//@import "~bootstrap/scss/_utilities";
+//@import "~bootstrap/scss/_containers";
+//@import "~bootstrap/scss/_grid";
+//@import "~bootstrap/scss/_helpers";
+//@import "~bootstrap/scss/_forms";
+//@import "~bootstrap/scss/utilities/api";
+
+@import "~bootstrap/scss/_functions";
+@import "custom_variables";
+@import "~bootstrap/scss/_maps";
+@import "~bootstrap/scss/_mixins";
+@import "~bootstrap/scss/_utilities";
+
+//@import "~bootstrap/scss/_buttons";
+@import "~bootstrap/scss/_containers";
+@import "~bootstrap/scss/_root";
+@import "~bootstrap/scss/_reboot";
+@import "~bootstrap/scss/_type";
+@import "~bootstrap/scss/_images";
+@import "~bootstrap/scss/_containers";
+@import "~bootstrap/scss/_grid";
+@import "~bootstrap/scss/_helpers";
+@import "~bootstrap/scss/_transitions";
+@import "~bootstrap/scss/_forms";
+@import "~bootstrap/scss/_buttons";
+@import "~bootstrap/scss/_nav";
+@import "~bootstrap/scss/_navbar";
+
+
+// Layout & components
+//@import "~bootstrap/scss/_tables";
+//@import "~bootstrap/scss/_forms";
+//@import "~bootstrap/scss/_dropdown";
+//@import "~bootstrap/scss/_button-group";
+@import "~bootstrap/scss/_card";
+@import "~bootstrap/scss/_accordion";
+//@import "~bootstrap/scss/_breadcrumb";
+//@import "~bootstrap/scss/_pagination";
+@import "~bootstrap/scss/_badge";
+@import "~bootstrap/scss/_alert";
+@import "~bootstrap/scss/_progress";
+@import "~bootstrap/scss/_tooltip";
+@import "~bootstrap/scss/_popover";
+@import "~bootstrap/scss/_carousel";
+@import "~bootstrap/scss/_spinners";
+@import "~bootstrap/scss/_offcanvas";
+@import "~bootstrap/scss/_placeholders";
+
+
+@import "~bootstrap/scss/_list-group";
+@import "~bootstrap/scss/_close";
+@import "~bootstrap/scss/_toasts";
+@import "~bootstrap/scss/_modal";
+@import "~bootstrap/scss/utilities/api";
+
+
+html{
+  background-color: $body-bg !important;
+}
+
+html, body{
+  height: 100%;
+  color: $white;
+  font-family: "tw_cen_mt_regular";
+  font-size: $font-size-base;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: normal;
+}
+
+a{
+  text-decoration: none !important;
+  color: $white;
+
+  :visited{
+    color: $gray-100;
+  }
+}
+
+body{
+  margin:0px;
+}
+
+.list-group-horizontal{
+
+}
+
+@include media-breakpoint-up(sm) {
+
+}
+
+@include media-breakpoint-up(md) {
+
+}
+
+
+.py-vh-1 {
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh; }
+
+.py-vh-2 {
+  padding-top: 3vh;
+  padding-bottom: 3vh; }
+
+.py-vh-3 {
+  padding-top: 6vh;
+  padding-bottom: 6vh; }
+
+.py-vh-4 {
+  padding-top: 9vh;
+  padding-bottom: 9vh; }
+
+.py-vh-5 {
+  padding-top: 12vh;
+  padding-bottom: 12vh; }
+
+.py-vh-6 {
+  padding-top: 16vh;
+  padding-bottom: 16vh; }
+
+.transform-scale:hover {
+  transform: scale(1.5, 1.5); }
+
+.px-vw-5 {
+  padding-left: 5vw;
+  padding-right: 5vw; }
+
+.vh-5 {
+  height: 5vh; }
+
+.vh-10 {
+  height: 10vh; }
+
+.vh-20 {
+  height: 20vh; }
+
+.vh-25 {
+  height: 25vh; }
+
+.vh-33 {
+  height: 33vh; }
+
+.vh-50 {
+  height: 50vh; }
+
+.vh-66 {
+  height: 66vh; }
+
+.vh-75 {
+  height: 75vh; }
+
+.vh-100 {
+  height: 100vh; }
+
+.vw-5 {
+  height: 5vw; }
+
+.vw-10 {
+  height: 10vw; }
+
+.vw-20 {
+  height: 20vw; }
+
+.vw-25 {
+  height: 25vw; }
+
+.vw-33 {
+  height: 33vw; }
+
+.vw-50 {
+  height: 50vw; }
+
+.vw-66 {
+  height: 66vw; }
+
+.vw-75 {
+  height: 75vw; }
+
+.vw-100 {
+  height: 100vw; }
+
+
+
